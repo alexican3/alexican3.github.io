@@ -1,0 +1,109 @@
+body {
+    background-color: rgb(197, 197, 197);
+    text-align: left;
+}
+
+h1 {
+    color: rgb(255, 136, 0);
+
+}
+
+h3 {
+    color: rgb(255, 136, 0);
+}
+
+h5 {
+    color: rgb(224, 0, 0);
+}
+
+button {
+    font-size: 20px;
+    background-color: rgb(86, 170, 255);
+    color: white;
+    padding: 10px 16px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    align-content: center;
+}
+
+
+#apples {
+    font-size: 15px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+#bananas {
+    font-size: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#oranges {
+    font-size: 15px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+
+.list {
+    border-style: double;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    width: 300px
+}
+
+.specialfruit {
+    border-style: double;
+    border-width: 3px;
+    padding: 8px 8px 4px 8px;
+    display: inline-block;
+}
+
+.favfruit {
+    display: inline-block;
+    border-style: double;
+    padding: 10px 15px 10px 15px;
+}
+
+#facts p1 {
+    font-size: 15px;
+    color: rgb(224, 0, 0); 
+}
+
+
+#facts p2 {
+    font-size: 15px;
+    color: rgb(255, 208, 0); 
+}
+
+#facts p3 {
+    font-size: 15px;
+    color: rgb(255, 145, 0); 
+
+}
+
+#animation {
+    animation-name: animation;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animation {
+
+    0%{
+        text-align: right;
+    }
+    25%{
+        text-align: center;
+    }
+    50%{
+        text-align: left;
+    }
+    75%{
+        text-align: center;
+    }
+    100%{
+        text-align: right;
+    }
+}
